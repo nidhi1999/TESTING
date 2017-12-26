@@ -10,7 +10,11 @@
 	}
 	catch(PDOException $e)
 	{
+<<<<<<< HEAD
 	     echo $e->getMessage();;;;;;
+=======
+	     echo $e->getMessage();;;;;;
+>>>>>>> testing
 	}
 
 	include 'class.user.php';
